@@ -43,10 +43,9 @@ Drink {
 // Food scheme
 Food {
         _id : ("5e81ba1051d4f6298052d9d1"),
-        Name : "Risotto",
+        Name : "Milk and Khobz",
         Price : "201.21",
-        Type : "Italian",
-        Description : "Risotto is a typical northern Italian dish that can be cooked in an infinite number of ways.",
+        Description : "Made up of milk and bread.",
         created_at : ("2023-06-20")
 }
 
@@ -103,7 +102,7 @@ Customer {
 booking {
         _id : ("5e8626c48b66dd116813b732"),
         Date : "2023-06-20",
-        time : "10:00pm",
+        time : "8:00pm",
         number_place : "3",
         CustomerID : "5e9864b2b8ffe7594876d724",
         created_at : ("2023-06-20")

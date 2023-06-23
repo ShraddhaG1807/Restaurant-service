@@ -28,25 +28,28 @@ User {
         email : "shraddhag1807@gmail.com",
         password : "xyz@123",
         avatar : "profile.png",
-        created_at : ("2023-06-20")
+        created_at : ("2023-06-20T17:40:57.452Z")
 }
 
 // Drink scheme
 Drink {
             _id : ("5e87404989624917fc83db12"),
-            Name : "Red wine",
-            Type : "wine",
-            Description : " Red wine is made with dark-skinned rather than light-skinned grapes.",
-            created_at : ("2023-06-20")
+            Name : "namemore",
+            Alcohol : "alcoholwoman",
+            Type : "newwoman",
+             Description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            created_at : ("2023-06-20T17:40:57.452Z")
 }
 
 // Food scheme
 Food {
         _id : ("5e81ba1051d4f6298052d9d1"),
-        Name : "Milk and Khobz",
+        Name : "hmiss",
         Price : "201.21",
-        Description : "Made up of milk and bread.",
-        created_at : ("2023-06-20")
+        Type : "khfif",
+        Category : "taklidi",
+         Description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        created_at : ("2023-06-20T17:40:57.452Z")
 }
 
 // Table scheme
@@ -55,7 +58,8 @@ Table {
     Name : "Classic tow",
     NumberPlace : "6",
     Type : "family",
-    created_at : ("2023-06-20")
+     Description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    created_at : ("2023-06-20T17:40:57.452Z")
 }
 
 // Chef scheme
@@ -63,14 +67,15 @@ Chef {
         _id : ("5e833906da8f86227cb61966"),
         Fname : "Karimo",
         LName : "Smith",
-        Email : "karimo@chef.com",
+        Email : "karimo@chef.jz",
         Experience : "10 years of job",
         Type : "all types",
+        City : "Illizi",
         Postcode : "35000",
         Salary : "1000",
         Sex : "man",
         Birthdate : "1990-04-17",
-        created_at : ("2023-06-20")
+        created_at : ("2023-06-20T17:40:57.452Z")
 }
 
 // Waiter scheme
@@ -78,12 +83,13 @@ Waiter {
             _id : ("5e81ae8260cd552b58714cfc"),
             Fname : "Mohammed",
             LName : "Abrahim",
-            Email : "mohammed@waiter.com",
+            Email : "mohammed@waiter.jz",
+            City : "Naama",
             Postcode : "35000",
             Salary : "200",
             Sex : "man",
             Birthdate : "1995-10-25",
-            created_at : ("2023-06-20")
+            created_at : ("2023-06-20T17:40:57.452Z")
 }
 
 // Booking scheme
@@ -92,8 +98,8 @@ Customer {
         Fname : "Tessa",
         LName : "young",
         Contact : "0987654321",
-        Email : "younes@mail.com",
-        created_at : ("2020-03-30T17:40:57.452Z")
+        Email : "younes@mail.jz",
+        created_at : ("2023-06-20T17:40:57.452Z")
 }
 
 // Booking scheme
@@ -103,7 +109,7 @@ booking {
         time : "8:00pm",
         number_place : "3",
         CustomerID : "5e9864b2b8ffe7594876d724",
-        created_at : ("2023-06-20")
+        created_at : ("2023-06-20T17:40:57.452Z")
 }
 
 // Bills scheme
@@ -117,6 +123,6 @@ Bill {
         waiter_id : "5e98627d961ec759b0217a69",
         table_id : "5e9719fff6ca344ac449dd20",
         CustomerID : "5e822fd59d92e605285b5396",
-        created_at : ("2023-06-20")
+        created_at : ("2023-06-20T17:40:57.452Z")
 }
 </pre> 
